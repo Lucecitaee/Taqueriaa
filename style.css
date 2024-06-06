@@ -1,0 +1,285 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@500;500;600;700;800&display=swap');
+
+/*font-family:'permanet markes',cursive;
+*/
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    list-style: none;
+   }
+
+body{
+    font-family:'poppins', sans-serif;
+    background: linear-gradient(
+        90deg,
+        rgb(139, 108, 22) 0%,
+        rgb(207, 145, 51) 51%,
+        rgb(160, 165, 116)  100%
+
+
+    );
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ .header {
+    display: flex;
+    min-height: 75vh;
+    align-items: center;
+ }
+ .menu{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+.menu .logo {
+    color: #fece00;
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.menu .navber ul li {
+    position: relative;
+    float: left;
+
+}
+
+.menu .navber ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #fff4ff;
+    display: block;
+}
+
+.menu .navber ul li a:hover{
+    color: #fece00;
+}
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+
+}
+
+.header-txt {
+    width: 50%;
+
+}
+
+.header-txt h1 {
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 50;
+    font-family: 'permanet markes',cursive;
+    color: #ffcd31;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+
+}
+
+.header-txt spa{
+    font-size: 40px;
+    color: #fff4ff;
+    font-family: 'permanet markes',cursive;
+
+}
+
+p {
+  font-size: 16px;
+  color: #c9c5ca;
+  margin-bottom: 35px;
+
+
+}
+
+.btn-1{
+    display: inline-block;
+    color: #ffcd31;
+    padding: 13px 30px;
+    background-color: #fff4ff;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+.btn-1:hover {
+    background-color: #ffcd31;
+
+
+}
+
+.header-img {
+    width: 50%;
+
+}
+.header-img img {
+    width: 700px;
+
+}
+
+.servicer{
+    display: flex;
+    justify-content: space-between;
+    padding:  0 0 50px 0;
+
+}
+.servicer-1{
+    text-align: center;
+    padding: 35px;
+    margin: 0 10px;
+
+}
+.servicer-1 img {
+ width:  35px;
+ margin-bottom: 15px;
+
+}
+
+.servicer-1 h3 {
+    font-size: 20px;
+    font-family: 'permanet markes',cursive;
+    color: #ffcd31;
+    margin-bottom: 15px;
+
+
+}
+.info {
+   padding: 50px 0;
+   display: flex;
+
+}
+
+.info-1 {
+    width: 50;
+}
+.info-1 img {
+    width: 450;
+
+}
+.inf-2 {
+    width: 50;
+
+}
+
+.h2 {
+    font-size: 70px;
+    letter-spacing: 5px;
+    font-family: 'permanet markes',cursive;
+    color: #ffcd31;
+
+
+}
+
+.pizza {
+    padding: 0 0 100px 0;
+    text-align: center;
+
+}
+
+.pizza-centent {
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+.pizza-1 {
+    padding: 35px;
+    text-align: center;
+
+}
+
+.pizza-1 img {
+    width: 35px;
+
+}
+
+.pizza-1 h3 {
+    font-size: 22px;
+    color: #fff4ff;
+    margin-bottom: 15px;
+
+}
+
+.btn-2 {
+    display: inline-block;
+    color: #413e36;
+    padding: 10px 20px;
+    background-color: #ffcd31;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+ 
+}
+
+.btn-1:hover {
+    background-color: #fff4ff;
+
+}
+
+ @media(max-width:991px) {
+
+    .menu {
+        padding: 20px;
+
+    }
+    
+    .munu label {
+        display: initial;
+
+    }
+
+    .menu .navber{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #ffcd31;
+        display: none;
+    }
+
+    .menu .navber ul li {
+        width: 100;
+    }
+    .menu .navber ul li a {
+        color: #400e00;
+    }
+    .menu .navbern ul li a:hover{
+      display: initial;
+    }
+    #menu:checked ~ .navber {
+        display: initial;
+    }
+
+    -
+
+
+
+
+}
